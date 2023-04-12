@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header .navbar{
+    display: flex;
+    padding: 10px 10px;
+    border-bottom: 2px solid #4f72df;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.header .navbar .brand h3{
+
+ color: #4f72df;
+ font-size: 30px;
+
+}
+.header .navbar .brand span{
+    color: lightgray;
+    margin-left: 5px;
+}
+
+.header .navbar .menu{
+    display: flex;
+    list-style: none;
+    margin:10px 5% ;
+}
+
+.header .navbar .menu .menu-item{
+    padding: 0 20px;
+    font-size: 20px;
+}
+.header .navbar .date{
+    margin: 10px 20px 0px auto;
+}
+
+/* main content of the web page*/
+
+.container .section-1{
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    padding: 80px 100px;
+    height: 400px;
+}
+
+.container .section-1 .section-1-image{
+    width: 400px;
+}
+.container .section-1 .section-1-image img{
+    width: 100%;
+}
+.container .section-1 .section-1-text{
+    text-align: left;
+    width: auto;
+    margin-left: 50px;
+    width: 500px;
+    font-size: 30px;
+}
+
+.section-2{
+    padding: 80px 100px;
+    
+    
+}
+
+@media screen and (max-width:800px) {
+
+    .container .section-1{
+        height: 400px;
+    }
+
+    .container .section-1 .section-1-image{
+        display: none;
+    } 
+}
